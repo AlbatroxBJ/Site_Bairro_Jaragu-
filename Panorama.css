@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cor-cabeçalho {
+    z-index: 5;
+    position:fixed;
+    width: 100%;
+    height: 22px;
+    background-color: rgb(16, 112, 0);
+}
+#Cabeçalho {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    list-style-type:none;
+    padding-bottom: 45px;
+    margin-top: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;    
+}
+#Cabeçalho li {
+    padding-top: 25px;
+    display: inline-block;
+    padding-left: 70px;
+}
+#Cabeçalho li a{
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 30px;
+    font-family: "comic neue";
+    font-weight: 200;
+}
+#Imagem-Avatar{
+    z-index: 5;
+    width: 90px;
+    position:relative;
+    bottom: 60px;
+    left: 1210px;
+}
+#Panorama{
+    height: 2673;
+    width: 1440;
+}
+#Google_M_Jaraguá{
+    background-color: rgba(190, 217, 185, 1);
+    height: 800px;
+    width: 100%;
+}
+#Mapa{
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    align-items: center;
+}
+#T-GM{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 60px;
+}
+#Locais_Memoráveis{
+    position: relative;
+    bottom: 00px;
+    background-color: rgba(140, 184, 133, 1);
+    height: 737px;
+    width: 100%;
+}
+#Locais_Memoráveis h1{
+position: relative;
+top: 70px;
+
+font-size: 80px;
+align-items: center;
+text-align: center;
+}
+#Locais_Memoráveis li{
+    display: inline-block;
+    padding-left: 30px;
+}
+#Locais_Memoráveis img{
+    position: relative;
+    top: 150px;
+    height: 300px;
+    width: 303px;
+    
+}
+#Vídeo_Jaraguá{
+    position: relative;
+    bottom: 00px;
+    background-color: rgba(233, 255, 229, 1);
+    height: 737px;
+    width: 100%;
+}
+#Video{
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
+#Rodapé{
+    background-color:rgba(94, 172, 82, 1) ;
+    height: 327px;
+    width: 100%;
+
+}  
+
+#Eu-Img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 135px;
+    top: 30px;    
+    border-radius: 23px    
+}
+
+#Eu-Texto{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 120px;
+    top: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#Logo_Insta{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    left: 515px;
+    bottom: 100px;
+}
+
+#Texto_Insta{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 585px;
+    bottom:148px;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+#Logo_Facebook{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    left: 515px;
+    bottom: 300px;
+
+}
+
+#Texto_Facebook{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 500px;
+    bottom: 348px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#Logo_Gmail{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    left: 515px;
+    bottom: 190px;
+}
+
+#Texto_Gmail{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 578px;
+    bottom: 240px;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    color:white;
+}
+
+#Curriculo{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 1000px;
+    bottom: 380px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 51, 255);
+    text-decoration: none;
+}
+#Rodapé{
+    background-color:rgba(94, 172, 82, 1) ;
+    height: 327px;
+    width: 100%;
+
+}  
+
+#Eu-Img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 135px;
+    top: 30px;    
+    border-radius: 23px    
+}
+
+#Eu-Texto{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 120px;
+    top: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#Logo_Insta{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    left: 515px;
+    bottom: 100px;
+}
+
+#Texto_Insta{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 585px;
+    bottom:148px;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+#Logo_Facebook{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    left: 515px;
+    bottom: 300px;
+
+}
+
+#Texto_Facebook{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 500px;
+    bottom: 348px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#Logo_Gmail{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    left: 515px;
+    bottom: 190px;
+}
+
+#Texto_Gmail{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 578px;
+    bottom: 240px;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    color:white;
+}
+
+#Curriculo{
+    position: relative;
+    width: 460px;
+    height: 35px;
+    left: 1000px;
+    bottom: 380px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 51, 255);
+    text-decoration: none;
+}

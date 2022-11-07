@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cor-cabeçalho {
+    z-index: 5;
+    position:fixed;
+    width: 100%;
+    height: 22px;
+    background-color: rgb(16, 112, 0);
+}
+#Cabeçalho {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    list-style-type:none;
+    padding-bottom: 45px;
+    margin-top: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;    
+}
+#Cabeçalho li {
+    padding-top: 25px;
+    display: inline-block;
+    padding-left: 70px;
+}
+#Cabeçalho li a{
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 30px;
+    font-family: "comic neue";
+    font-weight: 200;
+}
+
+#Imagem-Avatar{
+    z-index: 5;
+    width: 90px;
+    position:relative;
+    bottom: 60px;
+    left: 1210px;
+}
+
+#Video{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    z-index: 2;
+}
+
+#Bem-Vindo{
+    position: relative;
+    bottom: 00px;
+    background-color: rgba(190, 217, 185, 1);
+    height: 700px;
+    width: 100%;
+}
+
+#Texto-BV{
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+
+#Texto-BV h1{
+    font-size: 60px;
+    position: relative;
+    left: 45px;
+}
+
+#Texto-BV p{
+    text-align:center;
+    position: relative;
+    right:350px;
+    top: 50px;
+    font-size:30px;
+}
+
+#Login-BV {
+    background-color: rgba(19, 137, 0,1);
+    height: 55px;
+    width: 250px;
+    position: relative;
+    left: 300px;
+    top:300px;
+}
+
+#Login-BV a{
+    text-align: center;
+    position: relative;
+    top: 13px;
+    left:90px;
+    color: white;
+    font-size: 25px;
+
+}
+
+#Bem-Vindo-IMG{
+    height: 380px;
+    width: 460px;
+    position: relative;
+    left: 850px;
+    bottom: 50px;
+}
+
+#História-HOME{
+    position: relative;
+    bottom: 00px;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(140, 184, 133,1);
+}
+
+#Titulo-HH{
+    position: relative;
+    left: 10px;
+    text-align: center;
+    font-size: 60px;
+    top: 50px;
+}
+
+#texto-HH{
+    position: relative;
+    top: 170px;
+    left: 320px;
+    text-align: justify;
+    padding-right: 450px;
+    padding-left:450px;
+    font-size: x-large;
+
+}
+
+#Casarão-Afonso{
+    text-decoration: none;
+}
+
+#Fundo-Branco-AS{
+    position: relative;
+    bottom: 70px;
+    left: 200px;
+    height: 370px;
+    width: 370px;
+}
+
+#Casarão-Afonso-img{
+    position: relative;
+    bottom: 100px;
+    right: 130px;
+    height: 370px;
+    width: 370px; 
+}
+
+#Veja_mais-HH{
+    position: relative;
+    bottom: 130px;
+    left: 760px;
+    font-size: xx-large;
+}
+
+#Curiosidades{
+    position: relative;
+    bottom: 00px;
+    background-color: rgba(233, 255, 229,1);
+    width: 100%;
+    height: 700px;  
+
+}
+
+#Título-Curiosidades{
+    position: relative;
+    left: 10px;
+    text-align: center;
+    font-size: 60px;
+    top: 30px;
+}
+
+#Texto-1-C{
+    position: relative;
+    left: 30px;
+    top: 430px;
+    text-align: justify;
+    padding-right: 450px;
+    padding-left:450px;
+    font-size: x-large;
+}
+
+#Tucano{
+    z-index: 1;
+    position: relative;
+    top: 270px;
+    left: 80px;
+    height: 250px;
+    width: 300px;
+}
+
+#Macaco1{
+    z-index: 1;
+    position: relative;
+    left: 240px;
+    height: 250px;
+    width: 250px;
+}
+
+#Macaco2{
+    z-index: 1;
+    position: relative;
+    top: 270px;
+    left: 450px;
+    height: 250px;
+    width: 250px;
+}
+
+#Cinza_1{
+    z-index: 0;
+    position: relative;
+    right: 250px;
+    bottom: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+#Cinza_2{
+    z-index: 0;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 30px;
+    top: 250px;
+}
+
+#Cinza_3{
+    z-index: 0;
+    height: 250px;
+    width: 300px;
+    position: relative;
+    left: 110px;
+}
+
+#Rodapé{
+    background-color:rgba(94, 172, 82, 1) ;
+    height: 327px;
+    width: 100%;
+
+}  
+
+#Eu-Img{
+    position: absolute;
+    height: 193px;
+    width: 200px;
+    left: 145px;
+    top: 3000px;    
+    border-radius: 23px    
+}
+
+#Eu-Texto{
+    position: absolute;
+    width: 460px;
+    height: 35px;
+    left: 130px;
+    top: 3200px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#Logo_Insta{
+    position: absolute;
+    width: 56px;
+    height: 57px;
+    left: 524px;
+    top: 3090px;
+}
+
+#Texto_Insta{
+    position: absolute;
+    width: 460px;
+    height: 35px;
+    left: 590px;
+    top: 3100px;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+#Logo_Facebook{
+    position: absolute;
+    width: 56px;
+    height: 57px;
+    left: 524px;
+    top: 2990px;
+
+}
+
+#Texto_Facebook{
+    position: absolute;
+    width: 460px;
+    height: 35px;
+    left: 505px;
+    top: 3000px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#Logo_Gmail{
+    position: absolute;
+    width: 56px;
+    height: 57px;
+    left: 524px;
+    top: 3190px;
+}
+
+#Texto_Gmail{
+    position: absolute;
+    width: 460px;
+    height: 35px;
+    left: 590px;
+    top: 3200px;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    color:white;
+}
+
+#Curriculo{
+    position: absolute;
+    width: 460px;
+    height: 35px;
+    left: 930px;
+    top: 3100px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 51, 255);
+}
